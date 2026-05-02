@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
+import Statistique from './Statistique';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
 
       <main>
         <p>Bienvenue sur SénTransport</p>
+        <Statistique />
+        <Statistique />
+        <Statistique />
       </main>
 
       <Footer />
